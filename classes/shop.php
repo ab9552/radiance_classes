@@ -2,9 +2,9 @@
 
 
 // crude connector
-$host1="localhost";
+$host1="3.92.180.95";
 $user1="root";
-$pass1="";
+$pass1="root1234";
 $dbl_name1="smart_school";
 
 $connect=mysqli_connect($host1,$user1,$pass1,$dbl_name1);
@@ -14,9 +14,9 @@ if(!$connect){
 }
 
 //oop connector
-	define("DB_HOST", "localhost");
+	define("DB_HOST", "3.92.180.95");
 	define("DB_USER", "root");
-	define("DB_PASS", "");
+	define("DB_PASS", "root1234");
 	define("DB_NAME", "smart_school");
 	
 	class shop{
